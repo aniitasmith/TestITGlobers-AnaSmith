@@ -1,18 +1,18 @@
+/* Importar estilos de libreria usada para carrusel. */
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html, body{
+html, body {
   font-size: 18 px;
   background-color: #ffffff;
 }
 
 .App {
   min-height: 100vh;
-  /* display: flex; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;

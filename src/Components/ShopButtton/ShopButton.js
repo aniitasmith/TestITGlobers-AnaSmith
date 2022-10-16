@@ -2,7 +2,7 @@ import './ShopButton.css';
 
 const ShopButton = () => {
   return (
-    <button className='button-shop'> SHOP </button>
+    <button className='button-shop'>SHOP</button>
   )
  };
 

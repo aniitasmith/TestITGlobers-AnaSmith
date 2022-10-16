@@ -7,14 +7,14 @@ header {
   min-height: 1080px;
 }
 
-.carousel-container{
+.carousel-container {
   position: relative;
 }
 
-.text-carousel{
+.text-carousel {
   position: absolute;
   z-index: 810;
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 70px;
   color: white;
   font-weight: 900;

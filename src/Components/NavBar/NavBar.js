@@ -27,11 +27,11 @@ const NavBar = () => {
         </NavButton>
       </div>
       <div className='main-account'>
-        <div className='nav-control'> Mi cuenta
+        <div className='nav-control'>Mi cuenta
         <FaChevronDown className='icon-down'></FaChevronDown>
         </div>
         <div className='separator-small'></div>
-        <div className='nav-control'> Mi compra </div>
+        <div className='nav-control'>Mi compra</div>
       </div>
     </div>
   )
