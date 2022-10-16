@@ -6,7 +6,8 @@ Test assignment de IT Globers. Página landing de productos PUFI.
 
 1. Clonar repositorio localmente.
 2. Instalar dependencias: `npm install`.
-3. Iniciar servidor locar: `npm start`.
+3. Iniciar servidor local: `npm start`.
+4. Navegar a http://localhost:3000/ para acceder a la página.
 
 ## Librerías utilizadas
 
