@@ -12,16 +12,16 @@ const InstagramSection = () => {
   const fila2= [Inst4, Inst5, Inst6];
 
   return (
-    <div className='ig-section-container'>
-      <div className="ig-text-container">
+    <section className='ig-section-container'>
+      <section className="ig-text-container">
         <p className="ig-subtitle">INSTAGRAM</p>
-        <p className="ig-title">#ESPUFI</p>
-      </div>
-      <div className="ig-photos-container">
+        <h1 className="ig-title">#ESPUFI</h1>
+      </section>
+      <section className="ig-photos-container">
           <Reel images={fila1}></Reel>
           <Reel images={fila2}></Reel>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
 

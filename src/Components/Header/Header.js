@@ -6,7 +6,7 @@ import ShopButton from '../ShopButtton/ShopButton.js'
 const Header = () => {
  return (
   <>
-    <div className='header'>
+    <header>
       <NavBar></NavBar> 
       <div className='carousel-container'>
         <Carousel></Carousel>
@@ -16,7 +16,7 @@ const Header = () => {
           <ShopButton></ShopButton>
         </div>
       </div>
-    </div>
+    </header>
   </>
   )
 };

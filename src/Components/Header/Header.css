@@ -1,10 +1,10 @@
+header {
+  position: relative;
+}
+
 .image-gallery-image {
   min-width: 1920px;
   min-height: 1080px;
-}
-
-.header {
-  position: relative;
 }
 
 .carousel-container{

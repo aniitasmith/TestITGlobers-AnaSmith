@@ -7,9 +7,9 @@ const Reel = (props) => {
   ));
 
   return (
-    <div>
+    <figure>
       {reelImgMap}
-    </div>
+    </figure>
   );
 }
 

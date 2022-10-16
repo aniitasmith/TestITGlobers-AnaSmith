@@ -4,14 +4,14 @@ import NewsletterForm from  "../NewsletterForm/NewsletterForm"
 
 const Newsletter = () => {
   return (
-    <div className='newsletter-container'>
-      <div className='text'>
+    <section className='newsletter-container'>
+      <section className='text'>
         <p className="subtitle"> Newsletter </p>
-        <p className="title"> SUSCRIBETE </p>
+        <h1 className="title"> SUSCRIBETE </h1>
         <p> y enterare de todas las novedades </p>
-      </div>
+      </section>
       <NewsletterForm></NewsletterForm>
-    </div>
+    </section>
   );
 }
 

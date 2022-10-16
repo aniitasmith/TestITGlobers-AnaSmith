@@ -7,8 +7,8 @@ const HorizontalSection = (props) => {
   const isInverted = `${(props.inverted ? 'inverted' : '').trimEnd()}`;
   
   return (
-    <div className={`container-section ${isInverted}`}>
-      <div className='main-image'>
+    <section className={`container-section ${isInverted}`}>
+      <figure className='main-image'>
         <img 
           src={require(`../../Images/${props.image}.jpg`)}
           alt={`Img ${props.image}`}
@@ -16,16 +16,16 @@ const HorizontalSection = (props) => {
         <div className='floating top'>
           {props.showButton === 'true' ? <ShopButton></ShopButton> : null}
         </div>   
-      </div>
+      </figure>
       <div className={`text-container ${isInverted}`}>
         <img 
           className='product-img' 
           src={require(`../../Images/${props.image} Producto.png`)}
           alt={`Img ${props.image} Producto`}
         />
-        <p className= 'title-container'>
+        <h1 className= 'title-container'>
            <strong>{props.title}</strong>
-        </p>
+        </h1>
         <div className='text-separator'>
           <hr/>
         </div>
@@ -37,7 +37,7 @@ const HorizontalSection = (props) => {
           <div className='button-text-container'>VER MÁS</div> 
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

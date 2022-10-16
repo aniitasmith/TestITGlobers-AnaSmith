@@ -5,25 +5,25 @@ import Shield from '../../Images/shield.jpg';
 
 const Footer = () => (
 <>
-  <div className='footer'>
+  <footer>
     <p className='logo'>Pufi</p>
     <div className='index'>
-      <div className='section'>
+      <section>
         <p>Pufi Rain</p>
         <p>Pufi Puff</p>
         <p>Pufi Cart</p>
         <p>Pufi Nap</p>
-      </div>
+      </section>
       <span className='footer-separator'></span>
-      <div className='section'>
+      <section>
         <p>Contacto</p>
         <p>Ayuda</p>
         <p>Cómo comprar</p>
         <p>Términos & Condiciones</p>
-      </div>
+      </section>
       <span className='footer-separator'></span>
       <div>
-        <p className='section'>compra 100% segura</p>
+        <section>compra 100% segura</section>
         <div className='warranty-container'>
           <img className='size-img' src={DataWeb} alt='img'/>
           <img className='size-img' src={Shield} alt='img'/>
@@ -31,8 +31,8 @@ const Footer = () => (
         </div>
       </div>
       <span className='footer-separator'></span>
-      <div className='social-media'>
-        <p className='section'>síguenos en</p>
+      <span className='social-media'>
+        <section className='section'>síguenos en</section>
         <a 
           href='https://www.linkedin.com/in/anac-smith/' target='_blank' rel='noreferrer'>
           <AiFillFacebook className='icon-social-media'></AiFillFacebook >
@@ -45,9 +45,9 @@ const Footer = () => (
           href='https://www.linkedin.com/in/anac-smith/' target='_blank' rel='noreferrer'> 
           <AiFillInstagram className='icon-social-media'></AiFillInstagram>
         </a>
-      </div>
+      </span>
     </div>
-  </div>
+  </footer>
   <div className='copyright-section'>
     <hr/>
     <p className='copyright-text'> PUFI Copyright 2017 - Todos los derechos reservados </p>
