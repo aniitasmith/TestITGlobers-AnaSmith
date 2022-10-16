@@ -1,9 +1,9 @@
-import React from 'react';
 import './Reel.css';
 
-function Reel (props) {
-  const reelImgMap = props.images.map( (image) => (
-    <img className="size-inst" src={image} alt='ig-reel-img'/>
+const Reel = (props) => {
+  // Retornar tags img de cada imagen proporcionada al componente.
+  const reelImgMap = props.images.map( (image, index) => (
+    <img className="size-inst" src={image} alt='ig-reel-img' key={index}/>
   ));
 
   return (

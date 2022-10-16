@@ -1,16 +1,22 @@
 import './App.css';
 import Footer from './Components/Footer/Footer';
-import Content from './Components/Content/Content';
+import Header from './Components/Header/Header';
 import InstagramSection from './Components/InstagramSection/InstagramSection';
 import Newsletter from './Components/Newsletter/Newsletter';
+import HorizontalSection from './Components/HorizontalSection/HorizontalSection';
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Content></Content>
-      <InstagramSection></InstagramSection>
-      <Newsletter></Newsletter>
+      <Header></Header>
+      <div>
+        <HorizontalSection image='Section1' title='Pufi RAIN' showButton='true'> </HorizontalSection>
+        <HorizontalSection image='Section2' title='Pufi PUFF' showButton='false' inverted={true}> </HorizontalSection>
+        <HorizontalSection image='Section3' title='Pufi CART' showButton='false'> </HorizontalSection>
+        <HorizontalSection image='Section4' title='Pufi NAP' showButton='false' inverted={true}> </HorizontalSection>
+        <InstagramSection></InstagramSection>
+        <Newsletter></Newsletter>
+      </div>
       <Footer></Footer>
     </div>
   );

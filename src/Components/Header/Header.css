@@ -3,13 +3,8 @@
   min-height: 1080px;
 }
 
-.content {
+.header {
   position: relative;
-}
-
-.floating {
-  position: absolute;
-  z-index: 800;
 }
 
 .carousel-container{

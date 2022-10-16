@@ -1,4 +1,3 @@
-import React from 'react';
 import './ShopButton.css';
 
 const ShopButton = () => {
@@ -7,4 +6,5 @@ const ShopButton = () => {
   )
    
  };
- export default ShopButton;
+
+export default ShopButton;

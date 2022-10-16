@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 import { AiFillFacebook, AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
 import DataWeb from '../../Images/DATAWEB.jpg';
@@ -7,52 +6,52 @@ import Shield from '../../Images/shield.jpg';
 const Footer = () => (
 <>
   <div className='footer'>
-    <p className='main-title-footer'> Pufi </p>
-    <div className='main-index-footer'>
-      <div className='list-footer'>
-        <p> Pufi Rain </p>
-        <p> Pufi Puff </p>
-        <p> Pufi Cart </p>
-        <p> Pufi Nap </p>
+    <p className='logo'>Pufi</p>
+    <div className='index'>
+      <div className='section'>
+        <p>Pufi Rain</p>
+        <p>Pufi Puff</p>
+        <p>Pufi Cart</p>
+        <p>Pufi Nap</p>
       </div>
-      <div className='separator-footer'></div>
-      <div className='list-footer'>
-        <p> Contacto </p>
-        <p> Ayuda </p>
-        <p> Cómo comprar </p>
-        <p> Términos & Condiciones </p>
+      <span className='footer-separator'></span>
+      <div className='section'>
+        <p>Contacto</p>
+        <p>Ayuda</p>
+        <p>Cómo comprar</p>
+        <p>Términos & Condiciones</p>
       </div>
-      <div className='separator-footer'></div>
+      <span className='footer-separator'></span>
       <div>
-        <p className='list-footer'> compra 100% segura</p>
-        <div className='container-guarantee'>
-          <img className='size-img' src={DataWeb} alt='img' />
-          <img className='size-img' src={Shield} alt='img' />
-          <p className='purchase-guarantee'> COMPRÁ CON <br/> LA GARANTIA <br/> DE PUFI</p>
+        <p className='section'>compra 100% segura</p>
+        <div className='warranty-container'>
+          <img className='size-img' src={DataWeb} alt='img'/>
+          <img className='size-img' src={Shield} alt='img'/>
+          <p className='warranty-purchase'>COMPRÁ CON <br/> LA GARANTIA <br/> DE PUFI</p>
         </div>
       </div>
-      <div className='separator-footer'></div>
+      <span className='footer-separator'></span>
       <div className='social-media'>
-        <p className='list-footer'> síguenos en </p>
+        <p className='section'>síguenos en</p>
         <a 
-          href='https://www.linkedin.com/in/anac-smith/'>
+          href='https://www.linkedin.com/in/anac-smith/' target='_blank' rel='noreferrer'>
           <AiFillFacebook className='icon-social-media'></AiFillFacebook >
         </a> 
         <a 
-          href='https://www.linkedin.com/in/anac-smith/'>
+          href='https://www.linkedin.com/in/anac-smith/' target='_blank' rel='noreferrer'>
           <AiFillTwitterCircle className='icon-social-media'></AiFillTwitterCircle>
         </a> 
         <a 
-          href='https://www.linkedin.com/in/anac-smith/'> 
+          href='https://www.linkedin.com/in/anac-smith/' target='_blank' rel='noreferrer'> 
           <AiFillInstagram className='icon-social-media'></AiFillInstagram>
         </a>
       </div>
     </div>
   </div>
-  <div class='separator-copyright'>
-          <hr/>
-        </div>
-  <p className='copyright-text'> PUFI Copyright 2017 - Todos los derechos reservados </p>
+  <div className='copyright-section'>
+    <hr/>
+    <p className='copyright-text'> PUFI Copyright 2017 - Todos los derechos reservados </p>
+  </div>
 </>
 );
 

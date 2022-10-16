@@ -9,23 +9,23 @@
   box-shadow: inset 2px 9px 8px 0px #888888
 }
 
-.main-title-footer{
-    font-family:'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    margin-left: 35px;
-    text-shadow: black 1px 1px 2px;
-    margin-bottom: 100px;
+.footer .logo {
+  font-family:'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 35px;
+  text-shadow: black 1px 1px 2px;
+  margin-bottom: 100px;
 }
 
-.main-index-footer {
+.footer .index {
   display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
 }
 
-.list-footer{
+.footer .section {
   font-family:'Roboto', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -36,7 +36,7 @@
   text-align: left;
 }
 
-.purchase-guarantee{
+.warranty-purchase {
   font-family:'Roboto', sans-serif;
   font-weight: 200;
   font-size: 15px;
@@ -47,13 +47,13 @@
   text-align: left;
 }
 
-.size-img{
+.size-img {
   width: 50px;
   height: 55px;
   margin: 5px;
 }
 
-.container-guarantee{
+.warranty-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,7 +61,7 @@
   margin-left: 10px;
 }
 
-.social-media{
+.social-media {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -69,14 +69,14 @@
   margin-left: 10px;
 }
 
-.icon-social-media{
+.icon-social-media {
   width: 30px;
   height: 30px;
   margin: 6px;
   color: black;
 }
 
-.copyright-text{
+.copyright-text {
   font-size: 14px;
   color: rgb(81, 81, 81);
   display: flex;
@@ -86,14 +86,14 @@
   margin: 25px;
 }
 
-.separator-copyright{
+.copyright-section {
   max-width: 98%;
   margin-left: 1%;
   align-content: center;
   color:rgb(140, 140, 140);
 }
 
-.separator-footer{
+.footer-separator {
   border-left: 1px solid rgb(128, 125, 125);
   height: 120px;
   border-radius: 10px;

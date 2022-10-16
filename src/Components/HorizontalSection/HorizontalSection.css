@@ -12,6 +12,12 @@
 
 }
 
+.top {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 .main-image {
   width: 50%;
   height: 100%;
@@ -24,16 +30,15 @@
   max-width: 100%;
 }
 
-.container-text{
+.text-container {
   position: relative;
   text-align: center;
   font-family:'Roboto', sans-serif;
   font-weight: 400;
   width: 50%;
-
 }
 
-.container-text::after{
+.text-container::after {
   position:absolute;
   width: 50px;
   height: 50px;
@@ -50,7 +55,7 @@
   content: "";
 }
 
-.container-text.inverted-text::after{
+.text-container.inverted::after {
   position:absolute;
   width: 50px;
   height: 50px;
@@ -68,52 +73,46 @@
 }
 
 
-.product-img{
+.product-img {
   width: 150px;
   height: 150px;
   margin: 120px;
 }
 
-.text-separator{
+.text-separator {
   max-width: 100px;
   margin-left: 45%;
   margin-top: 3%;
 }
 
-.title-container{
+.title-container {
   font-size: 50px;
-  }
+}
 
-.subtitle-container{
+.text-container .subtitle {
   font-size: 35px;
-  letter-spacing:  8px;
+  letter-spacing: 8px;
   margin: 50px;
-  }
- 
-  .top{
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-  }
+}
 
-  .button-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
+.action-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
-  .icon-more{
-    width: 25px;
-    height: 25px;
-  }
+.action-icon {
+  width: 25px;
+  height: 25px;
+}
 
-  .button-container-text{
-    font-size: 20px;
-    letter-spacing:  4px;
-    margin: 25px;
-    cursor: pointer; 
-    user-select: none;
-  }
+.button-text-container {
+  font-size: 20px;
+  letter-spacing:  4px;
+  margin: 25px;
+  cursor: pointer; 
+  user-select: none;
+}

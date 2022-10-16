@@ -1,4 +1,3 @@
-import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import Carousel1 from '../../Images/Carousel1.jpg';
 import Carousel2 from '../../Images/Carousel2.jpg';
@@ -10,7 +9,7 @@ const images = [
   { srcSet: Carousel3, },
 ];
 
-function Carousel() {
+const Carousel = () => {
   return (
     <ImageGallery 
       items={images} 

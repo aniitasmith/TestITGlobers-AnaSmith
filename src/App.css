@@ -18,3 +18,8 @@ html, body{
   justify-content: center;
   text-align: center;
 }
+
+.floating {
+  position: absolute;
+  z-index: 800;
+}

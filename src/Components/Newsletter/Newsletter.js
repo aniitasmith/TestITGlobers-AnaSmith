@@ -1,19 +1,16 @@
-import React from 'react';
-import NewsletterForm from  "../NewsletterForm/NewsletterForm"
 import './Newsletter.css';
+import NewsletterForm from  "../NewsletterForm/NewsletterForm"
 
 
-function Newsletter () {
+const Newsletter = () => {
   return (
-    <div className='container-newsletter'>
-      <div className='newsletter-text'>
-        <p className="subtitle-newsletter"> Newsletter </p>
-        <p className="title-newsletter"> SUSCRIBETE </p>
+    <div className='newsletter-container'>
+      <div className='text'>
+        <p className="subtitle"> Newsletter </p>
+        <p className="title"> SUSCRIBETE </p>
         <p> y enterare de todas las novedades </p>
       </div>
-      <div className='newsletter-email'>
-        <NewsletterForm></NewsletterForm>
-      </div>
+      <NewsletterForm></NewsletterForm>
     </div>
   );
 }
