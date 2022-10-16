@@ -1,0 +1,16 @@
+.subscription-form{
+position: relative;
+}
+
+.input-icon {
+  background: none;
+  padding: 0px;
+  border: none;
+  color: #000000;
+  position: absolute;
+  font-size: x-large;
+	width: 25px;
+  top:  15px;
+	height: 25px;
+	transform: translateX(-150%);
+}

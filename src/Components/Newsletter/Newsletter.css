@@ -1,0 +1,36 @@
+.container-newsletter{
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.newsletter-text{
+  font-family: 'Roboto', sans-serif;
+  margin: 22px;
+  user-select: none;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.subtitle-newsletter {
+  font-size: 22px;
+  color: rgb(66, 64, 64);
+  margin: 10px 0px  15px 0px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.title-newsletter{
+  font-size: 60px;
+  margin: 10px 0px;
+  font-weight: 100;
+  letter-spacing: 4px;
+ }
+
+ .form-email {
+  width: 35%;
+  height: 50px;
+  text-align: left;
+  text-indent: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -1,0 +1,28 @@
+.container-instagram-section {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.container-instagram-text {
+  font-family: 'Roboto', sans-serif;
+  margin: 25px;
+  user-select: none;
+}
+
+.subtitle-instagram {
+  font-size: 22px;
+  color: rgb(66, 64, 64);
+  margin: 10px 0px  15px 0px;
+  letter-spacing: 4px;
+}
+
+.title-instagram{
+  font-size: 60px;
+  margin: 10px 0px;
+  font-weight: 100;
+  letter-spacing: 4px;
+ }
+ 
+.container-instagram-photos {
+  margin-top: 100px;
+
+}
