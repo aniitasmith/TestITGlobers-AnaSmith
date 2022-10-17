@@ -1,6 +1,5 @@
 .container-section {
   width: 100%;
-  height: 960px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -9,7 +8,6 @@
 
 .inverted {
   flex-direction: row-reverse;
-
 }
 
 .top {
@@ -72,7 +70,6 @@
   content: "";
 }
 
-
 .product-img {
   width: 150px;
   height: 150px;
@@ -115,4 +112,22 @@
   margin: 25px;
   cursor: pointer; 
   user-select: none;
+}
+
+@media screen and (max-width:1023px){
+  .container-section {
+    flex-direction: column-reverse;
+  }
+
+  .main-image {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+  }
+
+  .text-container {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+  }
 }

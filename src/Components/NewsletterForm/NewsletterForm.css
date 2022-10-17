@@ -23,3 +23,9 @@ position: relative;
   font-weight: bold;
   font-size: 18px;
 }
+
+@media screen and (max-width:1023px){
+  .form-email {
+    width: 80%;
+  }
+}

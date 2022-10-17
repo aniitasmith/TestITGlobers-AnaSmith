@@ -3,7 +3,7 @@ import './NavButton.css';
 const NavButton = (props) => {
 return (
   <div 
-    className='NavButton'>
+    className='nav-button'>
     {props.children}
     <p>{props.text}</p>
   </div>

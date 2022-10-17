@@ -77,3 +77,39 @@
   width: 18px;
   height: 18px;
 }
+
+.collapsible-menu-button {
+  display: none;
+}
+
+.menu-shown {
+  display: block;
+  position: relative;
+  padding: 30px;
+}
+
+.menu-hidden {
+  display: none;
+}
+
+@media screen and (max-width:1023px){
+  .main-text {
+    font-size: xx-large;
+  }
+
+  .collapsible-menu-button {
+    display: block;
+    margin-right: 25px;
+    min-width: 35px;
+    min-height: 35px;
+  }
+
+  .main-account, .separator {
+    display: none;
+  }
+
+  .main-menu {
+    flex-direction: column;
+  }
+
+}

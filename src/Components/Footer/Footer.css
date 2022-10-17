@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 256px;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -12,7 +12,7 @@ footer {
 footer .logo {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 30px;
+  font-size: large;
   margin-left: 35px;
   text-shadow: black 1px 1px 2px;
   margin-bottom: 100px;
@@ -21,6 +21,7 @@ footer .logo {
 footer .index {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 80%;
   justify-content: space-between;
 }
@@ -28,7 +29,7 @@ footer .index {
 footer section {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: large;
   padding: auto;
   margin: 15px;
   text-transform: uppercase;
@@ -39,7 +40,7 @@ footer section {
 .warranty-purchase {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  font-size: 15px;
+  font-size: large;
   padding: auto;
   margin: 15px;
   text-transform: uppercase;
@@ -77,7 +78,7 @@ footer section {
 }
 
 .copyright-text {
-  font-size: 14px;
+  font-size: large;
   color: rgb(81, 81, 81);
   display: flex;
   flex-direction:column;
@@ -98,4 +99,22 @@ footer section {
   height: 120px;
   border-radius: 10px;
   margin-top: 25px;
+}
+
+@media screen and (max-width:1023px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer .logo {
+    margin: 25px 0px;
+  }
+
+  footer .index {
+    width: 100%;
+  }
+
+  footer section {
+    font-size: small;
+  }
 }
