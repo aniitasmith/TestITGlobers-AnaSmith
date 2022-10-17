@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import './NavBar.css';
 import { GiPillow } from 'react-icons/gi';
 import { SlUmbrella, SlBag } from 'react-icons/sl';
@@ -6,6 +7,9 @@ import { FaChevronDown } from 'react-icons/fa';
 import NavButton from '../NavButton/NavButton';
 
 const NavBar = () => {
+  // Traer el estado del contador desde el store de REDUX.
+  const counter = useSelector((state) => state.counter);
+
   return (
     <div className='nav floating'>
       <h1 className='main-text'>Pufi</h1>
@@ -31,7 +35,9 @@ const NavBar = () => {
         <FaChevronDown className='icon-down'></FaChevronDown>
         </div>
         <div className='separator-small'></div>
-        <div className='nav-control'>Mi compra</div>
+        <div className='nav-control'>
+          Mi compra ( {counter} )
+        </div>
       </div>
     </div>
   )
